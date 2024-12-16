@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="MauiEmbedded.MyMauiContent"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <VerticalStackLayout Padding="30,0" Spacing="25">
+        <Image
+            x:Name="image"
+            Aspect="AspectFit"
+            HeightRequest="185"
+            SemanticProperties.Description="dot net bot in a race car number eight"
+            Source="dotnet_bot.png">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnCounterClicked" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Label
+            SemanticProperties.HeadingLevel="Level1"
+            Style="{StaticResource Headline}"
+            Text="Hello, World!" />
+
+        <Label
+            SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+            SemanticProperties.HeadingLevel="Level2"
+            Style="{StaticResource SubHeadline}"
+            Text="Welcome to &#10;.NET Multi-platform App UI" />
+
+        <Button
+            x:Name="CounterBtn"
+            Clicked="OnCounterClicked"
+            HorizontalOptions="Fill"
+            SemanticProperties.Hint="Counts the number of times you click"
+            Text="Click me" />
+
+        <Label
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level2"
+            Style="{StaticResource MainAppOnlyStyle}"
+            Text="This is a MAIN app only feature!" />
+
+        <Label
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level2"
+            Style="{StaticResource TestAppOnlyStyle}"
+            Text="This is a TEST app only feature!" />
+
+    </VerticalStackLayout>
+
+</ContentView>

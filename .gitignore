@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/MauiEmbedded
+/src/MauiEmbedded/obj
+/src/MauiEmbedded.Droid/obj
+/src/MauiEmbedded.Maui/obj
+/src/MauiEmbedded.Native.Droid/obj
+/src/MauiEmbedded.Maui/MauiEmbedded.Maui.csproj.user
+/src/MauiEmbedded/MauiEmbedded.Core.csproj.user
