@@ -9,3 +9,5 @@
 /src/MauiEmbedded.Native.Droid/obj
 /src/MauiEmbedded.Maui/MauiEmbedded.Maui.csproj.user
 /src/MauiEmbedded/MauiEmbedded.Core.csproj.user
+/src/MauiEmbedded.Maui/bin/Debug
+/src/MauiEmbedded.Native.Droid/bin/Debug/net9.0-android
